@@ -1,0 +1,40 @@
+.about-me-wrapper{
+  margin-top: 100px;
+  text-align: center;
+  color: #ffe;
+  width: 100%;
+}
+h1{
+  font-size: 400%;
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+.subtitle{
+  margin-top: 30px;
+  font-style: italic;
+  color: #E3A11A;
+  font-size: 110%;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.about-me{
+  margin-top: 70px;
+  margin-left: 400px;
+  margin-right: 400px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.resume{
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  padding: 15px;
+  font-size: 90%;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #ffe;
+  border-radius: 3px;
+}
+.resume:hover{
+  background: none;
+  border: 2px solid #ffe;
+  color: #ffe;
+}

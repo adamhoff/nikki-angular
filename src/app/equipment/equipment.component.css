@@ -1,0 +1,20 @@
+.equipment-wrapper{
+  text-align: center;
+  overflow-y: scroll;
+}
+h1{
+  font-size: 400%;
+  margin-top: 2em;
+  color: #ffe;
+}
+.equipment-list {
+  margin-left: 40%;
+  text-align: left;
+  border-left: 2px solid #CC9966;
+}
+.equipment-list li{
+  color: #ffe;
+  font-size: 120%;
+  list-style: none;
+  padding: 20px;
+}

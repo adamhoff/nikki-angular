@@ -1,0 +1,51 @@
+nav {
+  text-align: center;
+  top: 0;
+}
+nav a {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  transition: color 0.5s ease;
+  color: #ffe;
+  font-style: italic;
+  display: block;
+  margin: 5px;
+}
+nav a:hover{
+  color: #E3A11A;
+}
+footer{
+  display: none;
+}
+.sticky{
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background: black;
+}
+@media only screen and (min-width: 600px) {
+  nav a{
+    display: inline;
+    margin: 15px;
+  }
+  footer, footer a, footer span{
+    display: inline;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    bottom: 0;
+    color: #666;
+    font-style: italic;
+  }
+  footer span{
+    margin-right: 25px;
+    color: #ffe;
+  }
+  footer a {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer a:hover{
+    color: #E3A11A;
+  }
+  .sticky{
+    padding: 30px;
+  }
+}
